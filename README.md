@@ -1,14 +1,15 @@
-# tmm
+# Tarkov Money Maker
 
-This template should help get you started developing with Vue 3 in Vite.
+I've put together a simple price comparator that shows the prices of items when buying from the Fleet versus selling to a vendor. 
+It utilizes a [datatable](https://datatables.net/manual/vue) for sorting and dynamic tab and pulls data through a GraphQL call from [tarkov.dev](https://api.tarkov.dev/).
 
-## Recommended IDE Setup
+I don't expect to do more than what has already been done. I created this tool for a quick profit on the market.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Feel free to use it if it can be helpful to you.
 
 ## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+You can change the call I used in ***src/components/query/GetItem.ts*** to add the weapon or create a filter for you.
 
 ## Project Setup
 
